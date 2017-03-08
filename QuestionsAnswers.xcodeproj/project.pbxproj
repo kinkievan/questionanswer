@@ -12,6 +12,7 @@
 		EC0CD81F1E6E325E00311194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0CD81D1E6E325E00311194 /* Main.storyboard */; };
 		EC0CD8211E6E325E00311194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0CD8201E6E325E00311194 /* Assets.xcassets */; };
 		EC0CD8241E6E325E00311194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0CD8221E6E325E00311194 /* LaunchScreen.storyboard */; };
+		EC0CD82C1E6E400000311194 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0CD82B1E6E400000311194 /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC0CD8201E6E325E00311194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC0CD8231E6E325E00311194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC0CD8251E6E325E00311194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0CD82B1E6E400000311194 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				EC0CD8191E6E325E00311194 /* AppDelegate.swift */,
 				EC0CD81B1E6E325E00311194 /* ViewController.swift */,
 				EC0CD81D1E6E325E00311194 /* Main.storyboard */,
+				EC0CD82B1E6E400000311194 /* QuestionViewController.swift */,
 				EC0CD8201E6E325E00311194 /* Assets.xcassets */,
 				EC0CD8221E6E325E00311194 /* LaunchScreen.storyboard */,
 				EC0CD8251E6E325E00311194 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				EC0CD81C1E6E325E00311194 /* ViewController.swift in Sources */,
 				EC0CD81A1E6E325E00311194 /* AppDelegate.swift in Sources */,
+				EC0CD82C1E6E400000311194 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
