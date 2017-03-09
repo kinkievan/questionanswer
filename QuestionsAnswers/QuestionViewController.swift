@@ -91,14 +91,14 @@ class QuestionViewController: UIViewController {
         score=0
         questionCount=0
         scoreLabel.text="score:\(score)";
-        list=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+        list=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
     }
     func nextQuestion()
         
     {
         questionCount=questionCount+1
         
-        let random=Int(arc4random())%list.count
+        let random=Int(arc4random()) % list.count 
         let index=list[random]
  
         for i in 0 ..< ChooseButtons.count{
